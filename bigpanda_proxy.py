@@ -1,4 +1,3 @@
-__author__ = 'Conall'
 import urllib
 import requests
 import json
