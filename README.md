@@ -1,3 +1,5 @@
+# Logentries Big Panda integration
+
 A Python twisted proxy server that receives, modifies and then forwards Webhook alerts from Logentries to BigPandas REST api endpoint.
 
 
@@ -9,6 +11,4 @@ Usage
 • Run the twisted proxy server `sudo twistd -y bigpanda_proxy.py`
 • In Logentries, modify alert webhook url e.g. `http://127.0.0.1:10000/form` replacing with your ip and port
 • Trigger a test Logentries alert and view your Bigpando.io UI.
-
-
 
